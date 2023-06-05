@@ -34,7 +34,7 @@ resource "aws_nat_gateway" "nat_gateway_az1" {
 # create nat gateway in public subnet az2
 resource "aws_nat_gateway" "nat_gateway_az2" {
   allocation_id = aws_eip.eip2.id
-  subnet_id     = var.public_subnet_az12id
+  subnet_id     = var.public_subnet_az2_id
 
   tags = {
     Name = "${var.project_name}-${var.environment}-ngw2"
