@@ -1,0 +1,10 @@
+variable "vpc_cidr_block" {}
+variable "vpc_cidr_block" {}
+variable "project_name" {}
+variable "environment" {}
+variable "public_subnet1_cidr" {}
+variable "public_subnet2_cidr" {}
+variable "private_subnet1_cidr" {}
+variable "private_subnet2_cidr" {}
+variable "private_data1_cidr" {}
+variable "private_data2_cidr" {}
