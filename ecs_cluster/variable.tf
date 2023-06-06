@@ -1,0 +1,12 @@
+variable "project_name" {}
+variable "environment" {}
+variable "task_execution_role_arn" {}
+variable "container_image" {}
+variable "env_bucket_name" {}
+variable "env_file_name" {}
+variable "region" {}
+variable "desired_count" {}
+variable "private_subnet1_id" {}
+variable "private_subnet2_id" {}
+variable "app_server_security_group_id" {}
+variable "target_group_arn" {}
