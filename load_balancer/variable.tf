@@ -5,4 +5,4 @@ variable "public_subnet1_id" {}
 variable "public_subnet2_id" {}
 variable "target_type" {}
 variable "vpc_id" {}
-varibale "certificate_arn" {}
+variable "certificate_arn" {}
