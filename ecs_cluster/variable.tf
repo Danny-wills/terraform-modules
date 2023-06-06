@@ -10,3 +10,4 @@ variable "private_subnet1_id" {}
 variable "private_subnet2_id" {}
 variable "app_server_security_group_id" {}
 variable "target_group_arn" {}
+variable "architecture" {}
